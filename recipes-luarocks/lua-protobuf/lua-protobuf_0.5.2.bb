@@ -5,7 +5,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=759700dd96fbc5c3b37ea958b7eae988"
 
 SRC_URI = "git://github.com/starwing/lua-protobuf;branch=master;protocol=https"
-SRCREV = "a256c34e12cad643d6ad189bddcbc314da9b0658"
+SRCREV = "3f9ffd485262edbcde618296c07b862ba5a74b38"
 
 S = "${WORKDIR}/git"
 LUAROCKS_ROCKSPEC = "rockspecs/${BPN}-0.4.0-1.rockspec"
