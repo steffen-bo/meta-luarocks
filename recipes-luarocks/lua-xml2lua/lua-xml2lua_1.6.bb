@@ -5,7 +5,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=ffef13ddaaf59a060cc6d8c355138aad"
 
 SRC_URI = "git://github.com/manoelcampos/xml2lua;branch=master;protocol=https"
-SRCREV = "v1.6-2"
+SRCREV = "054dea34d77bc53762331d1cc5026c66d87de768"
 S = "${WORKDIR}/git"
 
 inherit luarocks
