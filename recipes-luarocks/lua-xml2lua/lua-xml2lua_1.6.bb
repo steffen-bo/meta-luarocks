@@ -8,7 +8,4 @@ SRC_URI = "git://github.com/manoelcampos/xml2lua;branch=master;protocol=https"
 SRCREV = "v1.6-2"
 S = "${WORKDIR}/git"
 
-# If the QA error about gnu-hash shows up, try uncommenting the following line
-# LUAROCKS_EXTRA_CC = "${LDFLAGS}"
-
 inherit luarocks

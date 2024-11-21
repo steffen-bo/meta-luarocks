@@ -8,7 +8,4 @@ SRC_URI = "git://github.com/lunarmodules/lua-iconv.git;branch=master;protocol=ht
 SRCREV = "v7.1.0"
 S = "${WORKDIR}/git"
 
-# If the QA error about gnu-hash shows up, try uncommenting the following line
-# LUAROCKS_EXTRA_CC = "${LDFLAGS}"
-
 inherit luarocks
